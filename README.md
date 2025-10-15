@@ -159,7 +159,7 @@ The script sends an email notification to the designated security contact.
 ---
 
 ### 📸 Screenshot
-![amp4](amp4)
+![amp4](amp4.jpg)
 
 
 **Author:** [ciscoketcheon](https://github.com/ciscoketcheon)  
