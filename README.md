@@ -171,5 +171,5 @@ Email action.
 
 
 **Author:** [ciscoketcheon](https://github.com/ciscoketcheon)  
-**License:** MIT (optional)
+**License:** BSD3 
 
