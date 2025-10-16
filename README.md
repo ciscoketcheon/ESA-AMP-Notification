@@ -158,6 +158,12 @@ AMP file analysis initiated
 
 The script sends an email notification to the designated security contact.
 
+Example triggering event, file quarantined to AMP queue:-
+![amp2](amp2.jpg)
+
+Email action. 
+![amp3](amp3.jpg)
+
 ---
 
 ### 📸 Screenshot
