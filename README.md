@@ -2,7 +2,7 @@
 
 This script monitors Cisco ESA logs and detects when a file is sent into the AMP quarantine queue with the action **"Pending File Analysis"** and **Quarantine**.  
 In a standard ESA configuration, no notification is generated for this event.  
-This script closes that gap by sending an email notification to your security team.
+This script closes that gap by sending an email notification to the recipient. Script can be further customized to only send to designated addresses or security team. 
 
 ---
 
@@ -22,6 +22,8 @@ This script closes that gap by sending an email notification to your security te
 6. Commit the changes
 
 ESA will start sending its logs to your Ubuntu server on port **514**.
+
+![amp1](amp1.jpg)
 
 ---
 
@@ -130,7 +132,7 @@ Description=Cisco ESA AMP log watcher
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/esa_amp_watch.py
+ExecStart=/usr/local/bin/amp-notification.py
 Restart=always
 User=root
 
